@@ -28,11 +28,18 @@ p
     margin-top: 40px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    gap: 30px;
-      
+    gap: 30px;      
 }
 .card-body
 {
     height: 100px;
+}
+.card:hover
+{
+    transform: translateY(-10px)
+
+}
+.card:hover
+{
+ transition:0.5s ease;
 }
